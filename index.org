@@ -1,0 +1,205 @@
+#+begin_export latex
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\begin{document}
+\begin{center}
+CLARION UNIVERSITY OF PENNSYLVANIA\\
+COLLEGE OF BUSINESS ADMINISTRATION\\
+DEPARTMENT OF FINANCE
+\\
+{\bf Management of Financial Institutions}\\
+{\bf FIN 375}\\
+{\bf Fall 2017}\\
+\end{center}
+\vspace*{5pt}
+{\bf Instructor}: Dr. Matthew Brigida\\
+{\bf Office}: Still Hall 318 and STC 140\\
+{\bf Office Hours}: \\
+In Still Hall Office: Monday 3pm--5pm \\
+In STC 140: Tuesday/Thursday 11am--12:30pm\\
+{\bf Email}: \href{mailto:mbrigida@clarion.edu}{\textcolor{green}{mbrigida@clarion.edu}}\\
+\\
+{\bf Class Location}:  Still Hall 104\\
+{\bf Class Day \& Time}: Tuesday 5:00--7:40pm \\
+\\
+{\bf Text}: {\it Financial Markets and Institutions} by Jeff Madura, 10th Edition.
+\\
+\\
+\begin{center}
+{\bf DESCRIPTION}
+\end{center}  
+An introductory survey of financial institutions and their respective roles. The
+learning outcomes for this course are summarized below:
+\begin{enumerate}
+\item  Understanding the role of financial markets and institutions in promoting economic
+growth. 
+\item Introduce the Federal reserve and the U.S. monetary system as well as the reasoning,
+method, and effect of open market operations on money and capital markets.
+\item Compare and contrast the roles of money, capital (debt and equity), and derivative markets.
+\end{enumerate}
+\begin{center}
+{\bf ACADEMIC HONESTY POLICY}
+\end{center} 
+Academic dishonesty will not be tolerated in this class. Cheating
+on quizzes, examinations, and other forms of dishonesty (e.g., plagiarism, collusion, and
+falsification of data) will be dealt with in a serious and formal manner. The penalty for academic
+dishonesty in this class will be course failure. That is, any student who is found to be cheating
+or engaged in other academically dishonest behavior will be failed for this course for this
+semester. Course withdrawals to avoid such a failure will not be permitted. As a student, you
+have a responsibility to become familiar with the Academic Honesty Policy found in the {\it Student
+Rights, Regulations, and Procedures Handbook}.\\
+\\
+\\
+\begin{tabular}{|p{2.1 in}|p{3.1 in}|} \hline
+\multicolumn{2}{|c|}{\bf BSBA Learning Goals and Objectives} \\ \hline
+{\bf Goal or Objective} & {\bf Assessed by:} \\ \hline
+Goal 1.0: Demonstrate Business Disciplinary Competence & The exams and homeworks will evaluate a core area of finance: Understanding and operating within financial markets with financial institutions. \\ \hline
+Goal 3.0 (Objectives 3.1 and 3.2): Communicate Effectively Orally and in Written Form & The class homework will evaluate students' written communication. \\ \hline
+Goal 4.0 (Objectives 4.1 and 4.3): Demonstrate Analytical Thinking Skills & Students will evaluate differing risk/ return characteristics among asset classes, and decide when it is appropriate to use a particular security. \\ \hline
+Goal 5.0: Understand Global Issues in the Functional Areas of Business & Understanding contemporary international financial markets and institutions and their purposes. This understanding is evaluated through the exams and homeworks. \\ \hline
+Goal 6.0 (Objectives 6.1 and 6.3): Demonstrate Effective Use of Technology and Data Analysis & In the homeworks, students will analyze data and communicate conclusions using Excel. \\ \hline
+\end{tabular}
+
+\begin{center}
+{\bf EXAMS} 
+\end{center}
+There will be three exams (two during the semester and a final exam). Normally no make-up exams will be given.  Failure to take an exam will result in a grade of zero for the missed exam.  Make-up exams will only be allowed for {\it extraordinary} and {\it verifiable} reasons.\\
+\begin{center}
+{\bf HOMEWORK} 
+\end{center}
+There will be three homework assignments during the semester. The three homework assignments will be due the week before each exam. Each homework will be worth 3 and 1/3 final grade points. Late homework will not be accepted.
+% \begin{center}
+% {\bf PAPERS} 
+% \end{center}
+% One short paper will be due on the last day of class. You may choose your topic
+% from a list of four (or possibly more topics if new ones arise during the semester). Also, if
+% you have a particular topic on which you would like to write, relating to financial markets or
+% institutions, then you may request this topic from the instructor. The paper should be no more
+% than 5 pages double spaced. You will be graded on the clarity, concision, and thoughtfulness
+% of your writing, and not on the amount of words you have put on paper. A list of four possible
+% topics, as well as source files for these topics, is available in the content section of D2L.
+\begin{center}
+{\bf PROJECT -- Not Required This Semester}
+\end{center}
+Students will either:
+
+\begin{itemize}
+\item Create a Shiny interactive web application.  To do so you'll first need to sign up for a free \href{https://www.shinyapps.io/}{\textcolor{blue}{shinyapps}} account.  
+
+You are free to create the account under a pseudonym, so no one can publicly identify you as the owner of the account.  However, the web application is a useful tool to show off your work, and is something that can go on your resume (with a link to the application).  So you may prefer to use your real name.  My user name is `mattbrigida'.  
+
+Your application should have something to do with currency markets, and should be at least somewhat original.  See a gallery of applications here:  \href{http://shiny.rstudio.com/}{\textcolor{blue}{shiny.rstudio}}. Possible applications may be:
+\begin{itemize}
+\item Plot a time series of interest rates.
+\item Plot the relationship of mortgage to inflation or interest rates.
+\item A mortgage payment calculator.
+\item Duration calculator.
+\item Create a histogram or probability density plot for bond or stock returns.
+\end{itemize}
+To get started you will want to use the RStudio development environment for R.  This is available in the Still hall computer lab, or you can install it for free on your own computer from here:  \href{https://www.rstudio.com/products/rstudio/download/}{\textcolor{blue}{download}}.  If you install it on your own computer you'll need to install R first.  You can get R here:  \href{https://cran.r-project.org/}{\textcolor{blue}{download}}
+
+\item Write a paper summarizing a topic relevant to the course.  A set of documents will be posted in which you may be able to find relevant topics.  The paper should be long enough to cover the topic, but should not contain irrelevant filler.
+\end{itemize}
+
+\begin{center}
+{\bf COURSE COMMUNICATION}
+\end{center}
+Course Communication: All important/official announcements will either be posted on Desire2Learn
+or emailed to each student's Clarion University email account. I will post helpful information
+to: \href{http://www.complete-markets.com}{\textcolor{green}{Complete Markets}}. To see information relating to your course type ``FIN 375'' in
+the search bar on the web page. Some examples of helpful information are
+spreadsheets which assist in studying for exams or completing homeworks, answers to questions
+other students have asked (of course I will not include who asked the question), and useful \href{http://www.r-project.org}{\textcolor{green}{R}} code. \\
+\\
+\\
+\begin{center}
+\begin{tabular}{lcr}
+\multicolumn{3}{c}{\bf GRADING:} \\ \hline
+Exam 1 & ................. & 25 \\
+
+Exam 2 & ................. & 25 \\
+
+Final Exam & ................. & 40 \\
+
+% Homework & ................. & 10 \\
+
+Participation/Computer Assignments ...  10\\
+  
+% Paper  & ................. &  20 \\
+
+% Project  & ................. &  20 \\
+
+%Paper 2 & ................. & 10 \\
+
+Total Points & ................. & 100\\
+\end{tabular}
+\end{center}
+%%
+%%
+\vspace*{5pt}
+\begin{center}
+{Final grades will be assigned according to the following scale}:
+\end{center}
+\begin{center}
+\begin{tabular}{lr}
+90 - 100 &  A \\
+80 - 89.9 &  B \\
+70 - 79.9 &  C \\
+60 - 69.9 &  D \\
+$<$ 60 &  F \\
+\end{tabular}
+\end{center}
+%%
+%%
+\vspace*{5pt}
+\begin{center}
+{\bf An Important Note on Grading}
+\end{center}
+There is no special consideration if you need a certain grade in this course to graduate.  {\bf If you require a certain grade in this class to graduate it is your responsibility to earn that grade.} Specifically if you receive a `D' in this course I will not allow you to do extra assignments after the course is complete in exchange for a higher grade. 
+%%
+%%
+\begin{center}
+{\bf Adding and dropping this course}
+\end{center}
+The instructor is not involved in any way with your adding and dropping the course.  It is the student's responsibility to abide by all proper procedures and dates.  \\
+\begin{center}
+{\bf GENERAL NOTES}:
+\end{center}
+\begin{enumerate}
+\item Attending class, and reading the text is required.
+\item All exams will be closed book.
+\item If you are late for an exam, no extra time will be allotted to you.
+\item There will be no make up exams or extra points assignments.
+\item You will be responsible for any material covered in class that is not in your text.
+\item You should bring your text to class.
+\item You are expected to be on time for class. This is especially important for exam
+dates.
+\item Disruptive behavior in the classroom will not be tolerated.
+\item You may not use tobacco products in class.
+\end{enumerate}
+\begin{center}
+\vspace*{5pt}
+{\bf TENTATIVE OUTLINE}
+\end{center}
+\begin{itemize}
+\item 8/29:  Chapter 1
+\item 9/5:   Chapter 2 
+\item 9/12:  Chapter 3 
+\item 9/19:  Chapter 4
+\item 9/26:  Chapter 5
+\item 10/3:  Chapter 6
+\item 10/10  Exam 1
+\item 10/17  Chapter 7
+\item 10/24  Chapter 8
+\item 10/31  Chapter 9
+\item 11/7:  Chapter 10
+\item 11/14  Exam 2
+\item 11/21  Chapter 11
+\item 11/28  Exam Review, {\bf and the last day to submit your project.}
+\item 12/5:  Finals Week
+\end{itemize}
+
+\end{document}
+#+end_export
