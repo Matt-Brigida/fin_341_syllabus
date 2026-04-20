@@ -1,0 +1,192 @@
+#+TITLE: FIN 341: Financial Institutions and Markets
+#+AUTHOR: Matthew Brigida
+#+OPTIONS: num:nil html-postamble:nil
+# #+HTML_HEAD: <style> body { max-width: 900px; margin: auto; line-height: 1.5; padding: 1rem; } table { border-collapse: collapse; } th, td { border: 1px solid #ccc; padding: 0.4rem; } code { background: #f6f8fa; padding: 0.1rem 0.25rem; } </style>
+#+SETUPFILE: ~/.emacs.d/org-themes/src/readtheorg_inline/readtheorg_inline.theme
+
+Department of Finance and Accounting: SUNY Polytechnic Institute
+
+* Instructor Information
+- *Instructor:* Dr. Matthew Brigida
+- *Office:* Donovan 1277
+- *Office Hours:* [Insert office hours]
+- *Email:* matthew.brigida@sunypoly.edu
+- *Class Location:* Online D2L/Brightspace
+- *Optional Text:* /Financial Markets and Institutions/ by Jeff Madura
+- *Lecture Notes:* https://financial-education.github.io/fin_mkts.html
+
+* Important Dates: Summer 2026
+- *Project 1 Due:* [Insert date]
+- *Project 2 Due:* [Insert date]
+- *Project 3 Due:* [Insert date]
+- *Project 4 Due:* [Insert date]
+- *Final Exam Due:* [Insert date]
+
+* Description
+An introductory survey of financial institutions and their respective roles.
+
+The learning outcomes for this course are:
+
+1. Understand the role of financial markets and institutions in promoting economic growth.
+2. Introduce the Federal Reserve and the U.S. monetary system, as well as the reasoning, method, and effect of open market operations on money and capital markets.
+3. Compare and contrast the roles of money, capital (debt and equity), and derivative markets.
+
+* Academic Honesty and AI Use
+AI tools are allowed in this course for explanation, coding, spreadsheet formulas, debugging, and drafting. Students are responsible for the accuracy of all submitted work. Grades are based on correctness, interpretation, and completion of the required outputs.
+
+Academic dishonesty will not be tolerated in this class. Misrepresenting work, falsifying data, or submitting work that does not reflect the required calculations or deliverables may be treated as academic dishonesty under university policy.
+
+* Course Structure
+This course is organized around four applied projects and one cumulative final exam. The projects are designed to assess students’ ability to work with financial data, calculate relevant measures, interpret results, and connect those results to the role of financial institutions and markets.
+
+* Projects
+
+** Project 1: Crypto Factor Model
+Create a factor model to estimate factor loadings for a given cryptocurrency. Choose a cryptocurrency whose name begins with the same first letter as your last name. If you cannot identify a suitable cryptocurrency, contact the instructor for an assigned fallback. You may complete the project in Excel or in a Colab notebook using Python or R.
+
+Download as much historical daily price data as possible for your cryptocurrency. Calculate daily returns and summary statistics for those returns. Then download factor data, beginning with the Fama-French 3 factors, and merge the factor data with your cryptocurrency return series. Estimate linear regressions of cryptocurrency returns on the factor returns and report the estimated factor loadings.
+
+Each student must submit:
+
+1. a file showing the downloaded price data and calculated daily returns
+2. summary statistics for the cryptocurrency’s returns
+3. the merged return and factor dataset
+4. regression output showing estimated factor loadings
+5. short responses to the following questions:
+   - Which factor appears most important in explaining the cryptocurrency’s returns?
+   - Were the estimated factor loadings consistent with your expectations?
+   - What is one limitation of using traditional equity factors to explain cryptocurrency returns?
+
+A successful project will correctly calculate returns, merge the data, estimate the regressions, report the factor loadings, and briefly interpret the results.
+
+** Project 2: Commercial Bank Snapshot
+Each student will complete a financial snapshot of a publicly traded U.S. commercial bank whose ticker begins with the same first letter as the student’s last name. If no suitable bank ticker is available, the student should use the next letter in the last name. If that also fails, the student should contact the instructor for an approved fallback ticker. ETFs, mutual funds, ADRs, preferred shares, and OTC stocks may not be used.
+
+The purpose of the project is to analyze the balance sheet, profitability, and market performance of a commercial bank. Students should obtain recent financial statement data for the bank and calculate the following:
+
+1. total assets
+2. total loans
+3. total deposits
+4. net income
+5. common equity
+6. return on assets (ROA)
+7. return on equity (ROE)
+8. loans-to-deposits ratio
+9. equity-to-assets ratio
+
+Students must also compare the bank’s stock performance over the most recent one-year period to both =XLF= and =SPY=.
+
+Each student must submit:
+
+1. a spreadsheet showing the source data and calculations
+2. a table reporting the required financial ratios
+3. a chart comparing the cumulative one-year return of the bank, =XLF=, and =SPY=
+4. short responses to the following questions:
+   - Does the bank appear conservatively or aggressively funded?
+   - Did the bank outperform or underperform the financial sector?
+   - What appears to be the bank’s primary risk?
+
+A successful project will correctly calculate the required ratios, clearly present the bank’s recent stock performance, and briefly interpret the bank’s condition and risk.
+
+** Project 3: Monetary Policy Event Study
+Each student will complete an event study on one Federal Open Market Committee (FOMC) announcement chosen from a list provided by the instructor. The purpose of the project is to measure how financial markets reacted to a monetary policy announcement.
+
+Students will use daily adjusted closing prices for =SPY=, =XLF=, and one Treasury ETF specified by the instructor, such as =TLT= or =IEF=. The event date is day 0. Students will calculate returns for day -1, day 0, and day +1, where:
+
+- =-1= is the trading day before the FOMC announcement
+- =0= is the FOMC announcement day
+- =+1= is the trading day after the announcement
+
+Daily return is:
+
+\[
+R_t = \frac{P_t}{P_{t-1}} - 1
+\]
+
+where \(P_t\) is the adjusted closing price on day \(t\).
+
+Students must calculate:
+
+1. the return on =SPY= for day -1, day 0, and day +1
+2. the return on =XLF= for day -1, day 0, and day +1
+3. the return on the assigned Treasury ETF for day -1, day 0, and day +1
+4. the cumulative return over the three-day window for each asset:
+
+\[
+CR[-1,+1] = R_{-1} + R_0 + R_{+1}
+\]
+
+Each student must submit:
+
+1. a spreadsheet showing all calculations
+2. a chart showing the three-day market reaction for the three assets
+3. short responses to the following questions:
+   - Which market segment reacted most strongly to the announcement?
+   - Was most of the reaction concentrated on day 0, or did it spill into adjacent days?
+   - What does the result suggest about the effect of monetary policy on financial markets?
+
+A successful project will correctly calculate the event-window returns, present the three-day cumulative reaction, and briefly interpret the effect of the FOMC announcement.
+
+** Project 4: Mortgage and Rate Transmission Lab
+Each student will analyze how changes in interest rates affect mortgage borrowing costs. The purpose of the project is to connect monetary policy and interest rates to household finance.
+
+Students will download the following data from FRED over the sample period *[insert start date]* through *[insert end date]*:
+
+1. the effective federal funds rate or 3-month Treasury bill rate
+2. the 10-year Treasury yield
+3. the 30-year fixed mortgage rate
+
+Students must create a chart showing all three series over time. Students must then calculate either correlations among the series or estimate a simple regression relating the mortgage rate to one of the Treasury or short-rate series.
+
+Students must also calculate the monthly payment on a fixed-rate mortgage using the standard mortgage payment formula:
+
+\[
+PMT = L \times \frac{r(1+r)^n}{(1+r)^n - 1}
+\]
+
+where:
+
+- \(L\) = loan principal
+- \(r\) = monthly interest rate
+- \(n\) = total number of monthly payments
+
+Use a loan amount of *[insert amount]* and compare the monthly payment under two different mortgage rates from your sample.
+
+Each student must submit:
+
+1. a spreadsheet showing the downloaded data and calculations
+2. a chart of the three interest-rate series
+3. the correlation or regression results
+4. the monthly payment calculations under two different mortgage rates
+5. short responses to the following questions:
+   - Did mortgage rates move closely with short-term rates?
+   - Did mortgage rates appear to track the 10-year Treasury yield more closely than the short rate?
+   - What do the results imply about how monetary policy affects household borrowing costs?
+
+A successful project will correctly download and analyze the rate series, compute the mortgage payments, and briefly interpret the transmission of interest rates to mortgage borrowing costs.
+
+* Final Exam
+There will be one cumulative final exam worth 20 percent of the final grade. The final exam will assess the major concepts covered in the course. Students may use notes, course materials, and outside resources. The exam will emphasize interpretation and application of concepts related to financial institutions, financial markets, monetary policy, and risk and return.
+
+* Course Communication
+All important and official announcements will be posted on Brightspace or emailed to each student’s SUNY Poly email account.
+
+All communication of a non-personal nature should be through the Brightspace D2L discussion boards. This allows other students to benefit from the question and answer and reduces duplicate email questions. Use email only for personal matters.
+
+* Grading
+
+| Component                                   | Points |
+|---------------------------------------------+--------|
+| Project 1: Crypto Factor Model              |     20 |
+| Project 2: Commercial Bank Snapshot         |     20 |
+| Project 3: Monetary Policy Event Study      |     20 |
+| Project 4: Mortgage and Rate Transmission   |     20 |
+| Final Exam                                  |     20 |
+| Total                                       |    100 |
+
+* Important Note on Grading
+1. There is no special consideration if you need a certain grade in this course to graduate. If you require a certain grade in this class, it is your responsibility to earn that grade.
+2. Late work will not be accepted. If you do not submit an exam or other assignment by the due date and time, you will receive a 0.
+
+* Adding and Dropping the Course
+The instructor is not involved in any way with your adding and dropping the course. It is the student’s responsibility to abide by all proper procedures and dates.
