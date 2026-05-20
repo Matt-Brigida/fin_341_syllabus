@@ -9,18 +9,18 @@ Department of Finance and Accounting: SUNY Polytechnic Institute
 * Instructor Information
 - *Instructor:* Dr. Matthew Brigida
 - *Office:* Donovan 1277
-- *Office Hours:* [Insert office hours]
+- *Office Hours:* Online by request
 - *Email:* matthew.brigida@sunypoly.edu
 - *Class Location:* Online D2L/Brightspace
 - *Optional Text:* /Financial Markets and Institutions/ by Jeff Madura
 - *Lecture Notes:* https://financial-education.github.io/fin_mkts.html
 
 * Important Dates: Summer 2026
-- *Project 1 Due:* [Insert date]
-- *Project 2 Due:* [Insert date]
-- *Project 3 Due:* [Insert date]
-- *Project 4 Due:* [Insert date]
-- *Final Exam Due:* [Insert date]
+- *Project 1 Due:* June 5
+- *Project 2 Due:* June 19
+- *Project 3 Due:* July 2
+- *Project 4 Due:* July 16
+- *Final Exam Due:* July 21
 
 * Description
 An introductory survey of financial institutions and their respective roles.
@@ -34,7 +34,7 @@ The learning outcomes for this course are:
 * Academic Honesty and AI Use
 AI tools are allowed in this course for explanation, coding, spreadsheet formulas, debugging, and drafting. Students are responsible for the accuracy of all submitted work. Grades are based on correctness, interpretation, and completion of the required outputs.
 
-Academic dishonesty will not be tolerated in this class. Misrepresenting work, falsifying data, or submitting work that does not reflect the required calculations or deliverables may be treated as academic dishonesty under university policy.
+Academic dishonesty will not be tolerated in this class. Misrepresenting work, falsifying data or submitting work may be treated as academic dishonesty under university policy.
 
 * Course Structure
 This course is organized around four applied projects and one cumulative final exam. The projects are designed to assess students’ ability to work with financial data, calculate relevant measures, interpret results, and connect those results to the role of financial institutions and markets.
@@ -130,7 +130,7 @@ A successful project will correctly calculate the event-window returns, present 
 ** Project 4: Mortgage and Rate Transmission Lab
 Each student will analyze how changes in interest rates affect mortgage borrowing costs. The purpose of the project is to connect monetary policy and interest rates to household finance.
 
-Students will download the following data from FRED over the sample period *[insert start date]* through *[insert end date]*:
+Students will download the following data from FRED over a recent sample period:
 
 1. the effective federal funds rate or 3-month Treasury bill rate
 2. the 10-year Treasury yield
@@ -150,7 +150,7 @@ where:
 - \(r\) = monthly interest rate
 - \(n\) = total number of monthly payments
 
-Use a loan amount of *[insert amount]* and compare the monthly payment under two different mortgage rates from your sample.
+Use a loan amount of $500,000 and compare the monthly payment under two different mortgage rates from your sample.
 
 Each student must submit:
 
@@ -175,14 +175,19 @@ All communication of a non-personal nature should be through the Brightspace D2L
 
 * Grading
 
-| Component                                   | Points |
-|---------------------------------------------+--------|
-| Project 1: Crypto Factor Model              |     20 |
-| Project 2: Commercial Bank Snapshot         |     20 |
-| Project 3: Monetary Policy Event Study      |     20 |
-| Project 4: Mortgage and Rate Transmission   |     20 |
-| Final Exam                                  |     20 |
-| Total                                       |    100 |
+|-------------------------------------------+--------|
+| Component                                 | Points |
+|-------------------------------------------+--------|
+| Project 1: Crypto Factor Model            |     20 |
+| Project 2: Commercial Bank Snapshot       |     20 |
+| Project 3: Monetary Policy Event Study    |     20 |
+| Project 4: Mortgage and Rate Transmission |     20 |
+| Final Exam                                |     20 |
+|-------------------------------------------+--------|
+| Total                                     |    100 |
+|-------------------------------------------+--------|
+|-------------------------------------------+--------|
+
 
 * Important Note on Grading
 1. There is no special consideration if you need a certain grade in this course to graduate. If you require a certain grade in this class, it is your responsibility to earn that grade.
