@@ -56,6 +56,7 @@ Each student must submit:
    - Which factor appears most important in explaining the cryptocurrency’s returns?
    - Were the estimated factor loadings consistent with your expectations?
    - What is one limitation of using traditional equity factors to explain cryptocurrency returns?
+6.  a description of how AI was used in for the project.
 
 A successful project will correctly calculate returns, merge the data, estimate the regressions, report the factor loadings, and briefly interpret the results.
 
@@ -85,7 +86,8 @@ Each student must submit:
    - Does the bank appear conservatively or aggressively funded?
    - Did the bank outperform or underperform the financial sector?
    - What appears to be the bank’s primary risk?
-
+5.  a description of how AI was used in for the project.
+   
 A successful project will correctly calculate the required ratios, clearly present the bank’s recent stock performance, and briefly interpret the bank’s condition and risk.
 
 ** Project 3: Monetary Policy Event Study
@@ -124,6 +126,7 @@ Each student must submit:
    - Which market segment reacted most strongly to the announcement?
    - Was most of the reaction concentrated on day 0, or did it spill into adjacent days?
    - What does the result suggest about the effect of monetary policy on financial markets?
+4.  a description of how AI was used in for the project.
 
 A successful project will correctly calculate the event-window returns, present the three-day cumulative reaction, and briefly interpret the effect of the FOMC announcement.
 
@@ -162,6 +165,7 @@ Each student must submit:
    - Did mortgage rates move closely with short-term rates?
    - Did mortgage rates appear to track the 10-year Treasury yield more closely than the short rate?
    - What do the results imply about how monetary policy affects household borrowing costs?
+6.  a description of how AI was used in for the project.
 
 A successful project will correctly download and analyze the rate series, compute the mortgage payments, and briefly interpret the transmission of interest rates to mortgage borrowing costs.
 
